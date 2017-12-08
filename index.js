@@ -12,7 +12,8 @@ var manifest = {
     description: "Complete Series",
     icon: "", 
     background: "https://hdwallsource.com/img/2014/12/dragon-ball-z-10242-10608-hd-wallpapers.jpg",
-
+    endpoint: "https://dbz-addon.herokuapp.com/",
+    isFree: true,
     // Properties that determine when Stremio picks this add-on
     types: ["series"], // your add-on will be preferred for those content types
     idProperty: ["imdb_id"], // the property to use as an ID for your add-on; your add-on will be preferred for items with that property; can be an array
