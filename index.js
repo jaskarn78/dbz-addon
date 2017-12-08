@@ -24,11 +24,24 @@ var manifest = {
     sorts: [ {prop: "popularities.dbz", name: "Dragon Ball Z", types: ["series"]}],
 };
 
+var stremio = new addons.Client({ 
+    picker: function(addons) { 
+        return addons 
+    }
+});
+stremio.add("https://dbz-addon.herokuapp.com");
+
+// specify a picker function to filter / sort the addons we'll use
+// timeout: specify a request timeout
+// respTimeout: specify response timeout
+// disableHttps: use HTTP instead of HTTPS
+// OR
+
 var dataset = {
     // For p2p streams, you can provide availability property, from 0 to 3, to indicate stability of the stream; if not passed, 1 will be assumed
     "tt0214341": {
         "1x1":[
-            fromMagnet("magnet:?xt=urn:btih:D93BF6AC3157D6EAAEDCA04825C9CCA64C291EA6&dn=DragonballZ002Reunions.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
+            fromMagnet("magnet:?xt=urn:btih:c0c440ebf439788633ca8c086a4280df3d2d9bb2&dn=DragonballZ001TheNewThreat.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
         ],
         "1x3":[
             fromMagnet("magnet:?xt=urn:btih:741B2D4FE20AF78C425816E3E457FD40D45EE4DE&dn=DragonballZ003UnlikelyAlliance.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
