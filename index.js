@@ -10,7 +10,7 @@ var manifest = {
 
     name: "Dragon Ball Z",
     description: "Complete Series",
-    icon: "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c3/3b/dd/c33bdd86-2e83-b45a-3b59-33484d813b47/source/256x256bb.jpg", 
+    icon: "", 
     background: "https://hdwallsource.com/img/2014/12/dragon-ball-z-10242-10608-hd-wallpapers.jpg",
 
     // Properties that determine when Stremio picks this add-on
