@@ -9,5 +9,9 @@
     "magnet": "^2.1.0",
     "magnet-uri": "^5.1.7",
     "stremio-addons": "^2.8.13"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
+
 }
