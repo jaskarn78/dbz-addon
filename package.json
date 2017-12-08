@@ -1,0 +1,13 @@
+{
+  "name": "dbz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "jjagpal101@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "magnet": "^2.1.0",
+    "magnet-uri": "^5.1.7",
+    "stremio-addons": "^2.8.13"
+  }
+}
