@@ -1,4 +1,4 @@
-var Stremio = require("stremio-addons");
+var Stremio = require("stremio-addons");https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjt6ZHng_rXAhVB-2MKHcyhB7MQjBwIBA&url=http%3A%2F%2Fwww.icons101.com%2Ficon_ico%2Fid_75212%2FFireronzv2ng7.ico&psig=AOvVaw1iSsiUgYF8P1vrRkIhe0tq&ust=1512809259267044
 var magnet = require("magnet-uri");
 // Enable server logging for development purposes
 process.env.STREMIO_LOGGING = true; 
@@ -10,7 +10,7 @@ var manifest = {
 
     name: "Dragon Ball Z",
     description: "Complete Series",
-    icon: "", 
+    icon: "http://icons.iconarchive.com/icons/musett/dragon-ballz/256/Dragon-Ball-icon.png", 
     background: "https://hdwallsource.com/img/2014/12/dragon-ball-z-10242-10608-hd-wallpapers.jpg",
     endpoint: "https://dbz-addon.herokuapp.com",
     isFree: true,
