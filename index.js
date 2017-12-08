@@ -29,7 +29,7 @@ var dataset = {
     // For p2p streams, you can provide availability property, from 0 to 3, to indicate stability of the stream; if not passed, 1 will be assumed
     "tt0214341": {
         "1x1":[
-            {url: "https://jagpal-development.com/dbz/DragonballZ001TheNewThreat.mkv", availability:1}
+            {url: "https://jagpal-development.com/dbz/DragonballZ001TheNewThreat.mkv", availability:1, name: "For Paul"}
         ],
 
         "1x2":[
