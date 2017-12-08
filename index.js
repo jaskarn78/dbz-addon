@@ -10,7 +10,7 @@ var manifest = {
 
     name: "Dragon Ball Z",
     description: "Complete Series",
-    icon: "http://icons.iconarchive.com/icons/musett/dragon-ballz/256/Dragon-Ball-icon.png", 
+    icon: "dbz.png", 
     background: "https://hdwallsource.com/img/2014/12/dragon-ball-z-10242-10608-hd-wallpapers.jpg",
     endpoint: "https://dbz-addon.herokuapp.com",
     isFree: true,
