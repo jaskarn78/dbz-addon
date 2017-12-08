@@ -15,9 +15,9 @@ var manifest = {
 
     // Properties that determine when Stremio picks this add-on
     types: ["series"], // your add-on will be preferred for those content types
-    idProperty: ['dbz'], // the property to use as an ID for your add-on; your add-on will be preferred for items with that property; can be an array
+    idProperty: ["imdb_id"], // the property to use as an ID for your add-on; your add-on will be preferred for items with that property; can be an array
     // We need this for pre-4.0 Stremio, it's the obsolete equivalent of types/idProperty
-    filter: { "query.dbz": { "$exists": true }, "query.type": { "$in": ["series"] } },
+    filter: { ["query.season"+"x"+"query.episode"]: { "$exists": true }, "query.type": { "$in": ["series"] } },
 
     // Adding a sort would add a tab in Discover and a lane in the Board for this add-on
     sorts: [ {prop: "popularities.dbz", name: "Dragon Ball Z", types: ["series"]}],
@@ -201,13 +201,15 @@ var addon = new Stremio.Server({
         console.log("received request from stream.find", args)
         //if(!args.query) return callback();
         var key = [args.query.season, args.query.episode].filter(function(x) { return x }).join("x");
+        var key2 = [args.query.season, args.query.episode].filter(function(x) { return x })
+        console.log(key2)
         console.log([dataset[args.query.imdb_id][key]]);
         callback(null, dataset[args.query.imdb_id][key]);
         // callback expects array of stream objects
     },
     "meta.find": function(args, callback) {
         console.log("received request from meta.find", args)
-         var ourImdbIds = Object.keys(dataset).map(function(x) { return x.split(" ")[0] });
+         var ourImdbIds = Object.keys(dataset).map(function(x) { return x });
          console.log(ourImdbIds);
         args.query = args.query || { };
         args.query.imdb_id = args.query.imdb_id || { $in: ourImdbIds };
