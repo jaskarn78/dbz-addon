@@ -12,7 +12,7 @@ var manifest = {
     description: "Complete Series",
     icon: "", 
     background: "https://hdwallsource.com/img/2014/12/dragon-ball-z-10242-10608-hd-wallpapers.jpg",
-    endpoint: "https://dbz-addon.herokuapp.com/",
+    endpoint: "http://dbz-addon.herokuapp.com/",
     isFree: true,
     // Properties that determine when Stremio picks this add-on
     types: ["series"], // your add-on will be preferred for those content types
@@ -24,18 +24,6 @@ var manifest = {
     sorts: [ {prop: "popularities.dbz", name: "Dragon Ball Z", types: ["series"]}],
 };
 
-var stremio = new addons.Client({ 
-    picker: function(addons) { 
-        return addons 
-    }
-});
-stremio.add("https://dbz-addon.herokuapp.com");
-
-// specify a picker function to filter / sort the addons we'll use
-// timeout: specify a request timeout
-// respTimeout: specify response timeout
-// disableHttps: use HTTP instead of HTTPS
-// OR
 
 var dataset = {
     // For p2p streams, you can provide availability property, from 0 to 3, to indicate stability of the stream; if not passed, 1 will be assumed
@@ -206,6 +194,7 @@ function fromMagnet(uri) {
 var methods = { };
 var client = new Stremio.Client();
 client.add("http://cinemeta.strem.io/stremioget/stremio/v1");
+client.add("http://dbz-addon.herokuapp.com");
 var addon = new Stremio.Server({
     "stream.find": function(args, callback) {
         console.log("received request from stream.find", args)
