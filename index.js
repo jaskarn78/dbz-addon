@@ -28,22 +28,18 @@ var dataset = {
     // For p2p streams, you can provide availability property, from 0 to 3, to indicate stability of the stream; if not passed, 1 will be assumed
     "tt0214341": {
         "1x1":[
-            fromMagnet("magnet:?xt=urn:btih:A1905EBB7EFFDCE6BF335EF75958EC727225371F&dn=DragonballZ001TheNewThreat.mkv&tr=http%3a%2f%2fopen.tracker.thepiratebay.org%2fannounce&ws=https%3a%2f%2fjagpal-development.com%2fdbz%2fDragonballZ001TheNewThreat.mkv")
+            fromMagnet("magnet:?xt=urn:btih:D93BF6AC3157D6EAAEDCA04825C9CCA64C291EA6&dn=DragonballZ002Reunions.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
         ],
-        "1x2":[
-            fromMagnet("magnet:?xt=urn:btih:D93BF6AC3157D6EAAEDCA04825C9CCA64C291EA6&dn=DragonballZ002Reunions.mkv&tr=http%3a%2f%2fopen.tracker.thepiratebay.org%2fannounce&ws=https%3a%2f%2fjagpal-development.com%2fdbz%2fDragonballZ002Reunions.mkv")
-        ],
-
         "1x3":[
-            fromMagnet("magnet:?xt=urn:btih:741B2D4FE20AF78C425816E3E457FD40D45EE4DE&dn=DragonballZ003UnlikelyAlliance.mkv&tr=http%3a%2f%2fopen.tracker.thepiratebay.org%2fannounce&ws=https%3a%2f%2fjagpal-development.com%2fdbz%2fDragonballZ003UnlikelyAlliance.mkv")
+            fromMagnet("magnet:?xt=urn:btih:741B2D4FE20AF78C425816E3E457FD40D45EE4DE&dn=DragonballZ003UnlikelyAlliance.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
         ],
 
         "1x4":[
-            fromMagnet("magnet:?xt=urn:btih:3CCF4F38E665123E29BC9C000A398701830753DB&dn=DragonballZ004PiccolosPlan.mkv&tr=http%3a%2f%2fopen.tracker.thepiratebay.org%2fannounce&ws=https%3a%2f%2fjagpal-development.com%2fdbz%2fDragonballZ004PiccolosPlan.mkv")
+            fromMagnet("magnet:?xt=urn:btih:3CCF4F38E665123E29BC9C000A398701830753DB&dn=DragonballZ004PiccolosPlan.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
         ],
 
         "1x5":[
-            fromMagnet("magnet:?xt=urn:btih:94EADC5A71688245C260602163AF2E20A100E1A1&dn=DragonballZ005GohansRage.mkv&tr=http%3a%2f%2fopen.tracker.thepiratebay.org%2fannounce&ws=https%3a%2f%2fjagpal-development.com%2fdbz%2fDragonballZ005GohansRage.mkv")
+            fromMagnet("magnet:?xt=urn:btih:94EADC5A71688245C260602163AF2E20A100E1A1&dn=DragonballZ005GohansRage.mkv&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com")
         ],
 
         "1x6":[
